@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ h3 {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.btn {
+    padding: 5px;
+    background-color: #ccc;
+    border: 1px solid black;
+    font-size: 50px;
+    cursor: pointer;
+}
+.stop-watch {
+    width: 15%;
+    margin: 0 auto;
+}
+.screen {
+    font-size: 60px;
+}
+</style>
+<body>
+    
+
+    <div class="stop-watch">
+        <h3>Stop Watch</h3>
+        <div class="screen">
+            <span class="min">00:</span>
+            <span class="sec">00:</span>
+            <span class="milli-sec">00</span>
+        </div>
+        <buttton type="button" class="btn" id="start">Start</buttton><br><br>
+        <!-- <buttton type="button" class="btn" id="pause">Pause</buttton> -->
+        <!-- <buttton type="button" class="btn" id="stop">Stop</buttton> -->
+        <buttton type="button" class="btn" id="reset">Reset</buttton>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
